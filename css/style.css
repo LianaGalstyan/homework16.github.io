@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  max-width: 1600px;
+  height: 750px;
+  width: 100%;
+  background-color: #121D33;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.login-block {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.login-block .title h3 {
+  font-size: 32px;
+  color: white;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+}
+
+.login-block .title p {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #98A1B2;
+  padding-bottom: 20px;
+}
+
+.login-block .block {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  background-color: white;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.login-block .block .emailWall {
+  text-align: center;
+}
+
+.login-block .block .emailWall .text {
+  padding-left: 14px;
+  text-align: start;
+  font-size: 14px;
+  font-family: sans-serif;
+  padding-bottom: 10px;
+}
+
+.login-block .block .emailWall .email {
+  width: 95%;
+  padding: 15px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  border: 0.5px solid #121D33;
+}
+
+.login-block .block .btn {
+  text-align: center;
+}
+
+.login-block .block .btn button {
+  width: 95%;
+  padding: 15px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: #318CE7;
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  opacity: 0.6;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.login-block .block .btn button:hover {
+  opacity: 1;
+}
+
+.login-block .block .btn a {
+  color: #0247FE;
+}
+
+section {
+  max-width: 1440px;
+  width: 100%;
+}
+
+section .section-block {
+  margin-top: 50px;
+}
+
+section .section-block .chois {
+  max-width: 1100px;
+  width: 100%;
+  padding-top: 25px;
+  margin: 0 auto;
+  grid-gap: 8px;
+  display: none;
+}
+
+section .workwears {
+  display: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+  grid-gap: 15px;
+}
+
+section .workwears .img p {
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-top: 7px;
+}
+
+section .workwears .block-tit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .workwears .block-tit p {
+  font-family: sans-serif;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+section .workwears .block-tit button {
+  border: none;
+  background-color: #121D33;
+  color: white;
+  width: 70px;
+  height: 35px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+section .sweaters {
+  display: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section .sweaters .sweaters-block {
+  margin: 0 auto;
+  padding-top: 50px;
+  grid-gap: 10px;
+}
+
+section .sweaters .sweaters-block .img p {
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-top: 7px;
+}
+
+section .sweaters .sweaters-block .block-tit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .sweaters .sweaters-block .block-tit p {
+  font-family: sans-serif;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+section .sweaters .sweaters-block .block-tit button {
+  border: none;
+  background-color: #121D33;
+  color: white;
+  width: 70px;
+  height: 35px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+section .denim-cloth {
+  display: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section .denim-cloth .denim-block {
+  margin: 0 auto;
+  padding-top: 50px;
+  grid-gap: 10px;
+}
+
+section .denim-cloth .denim-block .img p {
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-top: 7px;
+}
+
+section .denim-cloth .denim-block .block-tit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .denim-cloth .denim-block .block-tit p {
+  font-family: sans-serif;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+section .denim-cloth .denim-block .block-tit button {
+  border: none;
+  background-color: #121D33;
+  color: white;
+  width: 70px;
+  height: 35px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+section .shoes {
+  display: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section .shoes .shoes-block {
+  margin: 0 auto;
+  padding-top: 50px;
+  grid-gap: 10px;
+}
+
+section .shoes .shoes-block .img p {
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-top: 7px;
+}
+
+section .shoes .shoes-block .block-tit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .shoes .shoes-block .block-tit p {
+  font-family: sans-serif;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+section .shoes .shoes-block .block-tit button {
+  border: none;
+  background-color: #121D33;
+  color: white;
+  width: 70px;
+  height: 35px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .chois {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+/*# sourceMappingURL=style.css.map */
