@@ -25,9 +25,16 @@ let titBtn7 = document.querySelector(".tit-btn7");
 let titBtn8 = document.querySelector(".tit-btn8");
 let titBtn9 = document.querySelector(".tit-btn9");
 let titBtn10 = document.querySelector(".tit-btn10");
-titBtn1.addEventListener("click", () => {
-   alert("Not enough money!")
-})
+let blockTxt = document.querySelector(".block-text");
+
+
+let myWallet = document.querySelector(".my-wallet");
+let money = document.querySelector(".money");
+let cost = document.querySelectorAll(".cost");
+let ask = + prompt("Add money") ;
+
+
+
 titBtn2.addEventListener("click", () => {
    alert("Not enough money!")
 })
@@ -89,10 +96,21 @@ vector2.addEventListener("click", () => {
     choisBlocks.style.display = "flex";
  })
  
- 
- 
+
+
 contBtn.addEventListener("click", () => {
+
+   
+   myWallet.style.display = "block";
     choisBlocks.style.display = "flex";
     header.style.display = "none";
 })
-
+cost[0].addEventListener("click", ()=> {
+   if(ask >= 110) {
+      ask = ask - 110;
+      money.innerHTML = money;
+      alert("congratulation");
+   } else {
+      alert("Not enough money!");
+   }
+})
